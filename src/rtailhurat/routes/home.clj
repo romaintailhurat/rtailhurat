@@ -5,7 +5,8 @@
 (defn home []
   (layout/common
     [:h1 "_this is romain internet hub_"]
-    [:a {:href "http://twitter.com/romaintailhurat"} "twitter : @romaintailhurat"]
+    [:a {:href "http://twitter.com/romaintailhurat"} "@romaintailhurat"]
+    [:a {:href "https://github.com/romaintailhurat"} "github:romaintailhurat"]
   ))
 
 (defroutes home-routes
