@@ -6,6 +6,7 @@ lein ring uberwar at the root of the project
 
 unzip -d <destination dir> <war path>
   ==> dest dir is named "deploy" here
+  ==> /target then unzip -d /Users/romaintailhurat/code/rtailhurat/deploy/ rtailhurat-0.1.0-SNAPSHOT-standalone.war
 
 copy the appengine-web.xml that is in util to WEB-INF in deploy
 
