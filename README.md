@@ -1,18 +1,10 @@
 # rtailhurat
 
+/!\
+TODO : register romain.tailhur.at/
+/!\
+
 romain personal site using clojure on appengine, see http://flowa.fi/blog/2014/04/25/clojure-gae-howto.html
-
-lein ring uberwar at the root of the project
-
-unzip -d <destination dir> <war path>
-  ==> dest dir is named "deploy" here
-  ==> /target then unzip -d /Users/romaintailhurat/code/rtailhurat/deploy/ rtailhurat-0.1.0-SNAPSHOT-standalone.war
-
-copy the appengine-web.xml that is in util to WEB-INF in deploy
-
-gae deploy script : ./appcfg.sh update /Users/romaintailhurat/code/rtailhurat/deploy/
-  ==> need to be call in <appengine sdk dir>/bin
-
 
 ## Prerequisites
 
